@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Postman screenshot][product-screenshot]](screenpost.png)
+![[Postman screenshot][product-screenshot]](screenpost.png)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -117,13 +117,13 @@ This is an example of how to list types you need to use the software and how to 
 ## Usage
 
 to create html, provide html content along request params and make a post request as shown below
-[!post create](screenp.png) 
+![post create](screenp.png) 
 
 copy id generated from post response 
-[!take id](scc.png)
+![take id](scc.png)
 
 to view html page created, supplied id generated on creation and append to the url on a browser as shown below
-[!web view](bbl.png)
+![web view](bbl.png)
 
 _For more examples, please refer to the [Documentation](https://github.com/Kaydayo/HTML-Canva-Create-APP)_
 
