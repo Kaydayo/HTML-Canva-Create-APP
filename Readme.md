@@ -125,6 +125,9 @@ copy id generated from post response
 to view html page created, supplied id generated on creation and append to the url on a browser as shown below
 ![web view](bbl.png)
 
+html page returned shown below
+![get page](senu.png)
+
 _For more examples, please refer to the [Documentation](https://github.com/Kaydayo/HTML-Canva-Create-APP)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -132,16 +135,7 @@ _For more examples, please refer to the [Documentation](https://github.com/Kayda
 
 
 <!-- ROADMAP -->
-## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -164,33 +158,22 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
-## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@linkedin_handle](https://www.linkedin.com/in/mujeeb-adebowale-794762199/) - email@olukayodedayo100@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/Kaydayo/HTML-Canva-Create-APP](https://github.com/Kaydayo/HTML-Canva-Create-APP)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
 
 
 
