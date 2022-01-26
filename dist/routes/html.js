@@ -8,7 +8,7 @@ var htmlController_1 = require("../controllers/htmlController");
 var router = express_1.default.Router();
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.send(200).json({ message: 'you are here' });
+    res.status(200).json({ message: 'you are here' });
 });
 router.post('/create/:html', htmlController_1.createHtml);
 router.get('/get/webview/:id', htmlController_1.getHtml);
