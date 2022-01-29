@@ -40,22 +40,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getHtml = exports.createHtml = void 0;
-var create_html_1 = __importDefault(require("create-html"));
 var fs_1 = __importDefault(require("fs"));
 var utils_1 = require("../utils/utils");
 var path_1 = __importDefault(require("path"));
 var createHtml = function (req, res, next) { return __awaiter(void 0, void 0, void 0, function () {
-    var html_content, _a, Html_content, Replace, html, directory, filesInOutput, filename, id, file, newHtmlContent, error_1;
+    var _a, Html_content, Replace, directory, filesInOutput, filename, id, file, newHtmlContent, error_1;
     return __generator(this, function (_b) {
         switch (_b.label) {
             case 0:
                 _b.trys.push([0, 2, , 3]);
-                html_content = req.params.html;
                 _a = req.body, Html_content = _a.Html_content, Replace = _a.Replace;
-                html = (0, create_html_1.default)({
-                    title: 'HTML CREATOR',
-                    body: html_content,
-                });
                 directory = path_1.default.join(__dirname, "../output");
                 if (!fs_1.default.existsSync(directory)) {
                     fs_1.default.mkdirSync(directory);
@@ -67,7 +61,7 @@ var createHtml = function (req, res, next) { return __awaiter(void 0, void 0, vo
                 filename = (0, utils_1.createFileName)(filesInOutput);
                 id = filename.split('.')[0];
                 file = directory + "/".concat(filename);
-                newHtmlContent = (0, utils_1.replaceContent)(Replace, html);
+                newHtmlContent = (0, utils_1.replaceContent)(Replace, Html_content);
                 (0, utils_1.writeHTML)(file, newHtmlContent);
                 res.status(201).json({ message: "successfull", id: id });
                 return [3 /*break*/, 3];

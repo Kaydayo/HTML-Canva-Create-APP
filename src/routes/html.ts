@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/', (req:Request,res:Response,next:NextFunction)=>{
     res.status(200).json({message:'you are here'})
 })
-router.post('/create/:html', createHtml);
+router.post('/create', createHtml);
 router.get('/get/webview/:id', getHtml);
 
 export default router;

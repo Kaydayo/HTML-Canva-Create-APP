@@ -10,6 +10,6 @@ var router = express_1.default.Router();
 router.get('/', function (req, res, next) {
     res.status(200).json({ message: 'you are here' });
 });
-router.post('/create/:html', htmlController_1.createHtml);
+router.post('/create', htmlController_1.createHtml);
 router.get('/get/webview/:id', htmlController_1.getHtml);
 exports.default = router;

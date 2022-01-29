@@ -8,14 +8,14 @@ import path from 'path'
 export const createHtml = async (req: Request, res: Response, next: NextFunction) => {
     try {
         //get values from request body
-        const html_content = req.params.html
+        // const html_content = req.params.html
         const { Html_content, Replace } = req.body
 
-        // create html with key from req body
-        const html = createHTML({
-            title: 'HTML CREATOR',
-            body: html_content,
-        })
+        // // create html with key from req body
+        // const html = createHTML({
+        //     title: 'HTML CREATOR',
+        //     body: html_content,
+        // })
 
 
         //set directory to output files
@@ -33,7 +33,7 @@ export const createHtml = async (req: Request, res: Response, next: NextFunction
 
 
         // replace selected characters
-        let newHtmlContent = replaceContent(Replace, html)
+        let newHtmlContent = replaceContent(Replace, Html_content)
 
         writeHTML(file, newHtmlContent)
 
