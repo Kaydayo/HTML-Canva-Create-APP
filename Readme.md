@@ -165,7 +165,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@linkedin_handle](https://www.linkedin.com/in/mujeeb-adebowale-794762199/) - email@olukayodedayo100@gmail.com
+Your Name - [@linkedin_handle](https://www.linkedin.com/in/mujeeb-adebowale-794762199/)
 
 Project Link: [https://github.com/Kaydayo/HTML-Canva-Create-APP](https://github.com/Kaydayo/HTML-Canva-Create-APP)
 
